@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,400,700,800&display=swap');
+.header1 > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:black;
+  text-color:white;
+
+}
+.header2 > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+p{
+	font-family:'Nunito Sans',sans-serif;
+	font-size:12px;
+	
+}
+nav {
+  width: 600px;
+}
+.header1 a{
+
+	color:white;
+	
+}
+
+a:hover
+{
+	color:#f05136;
+	
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.blackHeart {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+
+#section1
+{
+	 display: flex;
+  justify-content: center;
+	align-items:center;
+}
+
+#section1 h2
+{
+	
+	 display: flex;
+  justify-content: center;
+	align-items:center;
+}
+#section2
+{
+	 display: flex;
+  justify-content: center;
+	align-items:center;
+}
+
+#section2 h2
+{
+	
+	 display: flex;
+
+  justify-content: center;
+	align-items:center;
+}
+#portfolio
+{
+	display:flex;
+		 flex-direction:row;
+		
+	align-items:center;
+	margin:10px;
+}
+#love div h4
+{
+	 display: flex;
+  justify-content: center;
+	align-items:center;
+	background:url(background.png);
+}
+#section3 div
+{
+	display: flex;
+  justify-content: center;
+	align-items:center;
+	background:url(background.png);
+	
+}
